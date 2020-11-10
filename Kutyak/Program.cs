@@ -16,7 +16,6 @@ namespace Kutyak
         static void KutyaNevekBeolvasas()
         {
             StreamReader be = new StreamReader("KutyaNevek.csv");
-
             be.ReadLine();
 
             while (!be.EndOfStream)
